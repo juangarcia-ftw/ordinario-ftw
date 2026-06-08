@@ -1,0 +1,7 @@
+<!ELEMENT contacto (telefono, correo, direccion)>
+
+<!ELEMENT telefono (#PCDATA)>
+
+<!ELEMENT correo (#PCDATA)>
+
+<!ELEMENT direccion (#PCDATA)>

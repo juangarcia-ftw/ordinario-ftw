@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
 <head>
+    <meta charset="UTF-8">
     <title>Inicio</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
 
 <header>
-    <h1>Sistema escolar</h1>
+    <h1>Proyecto de tema universidad</h1>
 </header>
 
 <nav>
@@ -21,15 +24,54 @@
 </nav>
 
 <main>
-    <section>
-        <h2>Sistema escolar</h2>
-        <p>Página de inicio del sitio web proyecto para la experiencia educativa Fundamentos de Tecnologías Web</p>
-    </section>
+
+<section>
+    <h2>Bienvenido</h2>
+    <p>Proyecto de la materia Fundamentos de Tecnologías Web</p>
+    <p>En este proyecto encontraremos navegación por el sitio web, arriba se encuentra el nombre del sitio,
+    abajo de este, hay vínculos para moverse entre las páginas. Esta es la página principal, en la parte inferior
+    tenemos un pequño formulario de muestra que regresa el usuario y la contraseña
+    </p>
+    <img src="logouv.jpg" alt="imagen principal de la universidad">
+</section>
+
+<section>
+    <h2>Iniciar Sesión</h2>
+
+    <form id="loginForm">
+        <label>Usuario:</label>
+        <br>
+        <input type="text" id="usuario">
+        <br><br>
+        <label>Contraseña:</label>
+        <br>
+        <input type="password" id="password">
+        <br><br>
+        <button type="submit">Ingresar</button>
+    </form>
+    <p id="resultado"></p>
+</section>
+
 </main>
 
 <footer>
     Juan Alejandro García García
 </footer>
+
+<script>
+
+document.getElementById("loginForm").addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    let usuario = document.getElementById("usuario").value;
+
+    let password = document.getElementById("password").value;
+
+    document.getElementById("resultado").innerHTML = "Usuario: " + usuario + " | Contraseña: " + password;
+});
+
+</script>
 
 </body>
 </html>

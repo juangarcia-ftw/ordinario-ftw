@@ -1,0 +1,5 @@
+<!ELEMENT carreras (carrera+)>
+
+<!ELEMENT carrera (nombre)>
+
+<!ELEMENT nombre (#PCDATA)>

@@ -1,0 +1,9 @@
+<!ELEMENT profesores (profesor+)>
+
+<!ELEMENT profesor (nombre, materia, genero)>
+
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT materia (#PCDATA)>
+
+<!ELEMENT genero (#PCDATA)>

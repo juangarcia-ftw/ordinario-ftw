@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE materias SYSTEM "materias.dtd">
+
+<materias>
+
+    <materia>
+        <nombre>Fundamentos de Tecnologías Web</nombre>
+    </materia>
+
+    <materia>
+        <nombre>Bases de Datos</nombre>
+    </materia>
+
+    <materia>
+        <nombre>Sistemas Operativos</nombre>
+    </materia>
+
+</materias>

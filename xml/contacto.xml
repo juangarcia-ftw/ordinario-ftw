@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE contacto SYSTEM "contacto.dtd">
+
+<contacto>
+
+    <telefono>
+        2281234567 (teléfono de ejemplo)
+    </telefono>
+
+    <correo>
+        universidad@ejemplo.com (correo de ejemplo)
+    </correo>
+
+    <direccion>
+        Xalapa, Veracruz (ubicación)
+    </direccion>
+
+</contacto>

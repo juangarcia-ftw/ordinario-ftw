@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE profesores SYSTEM "profesores.dtd">
+
+<profesores>
+
+    <profesor>
+        <nombre>
+            Carmen Godoy
+        </nombre>
+        <materia>
+            Experiencia de usuario
+        </materia>
+        <genero>
+            Mujer
+        </genero>
+    </profesor>
+
+    <profesor>
+        <nombre>
+            Carlos Alberto
+        </nombre>
+        <materia>
+            Redes
+        </materia>
+        <genero>
+            Hombre
+        </genero>
+    </profesor>
+
+    <profesor>
+        <nombre>
+            María de loa Ángeles
+        </nombre>
+        <materia>
+            Programación
+        </materia>
+        <genero>
+            Mujer
+        </genero>
+    </profesor>
+
+    <profesor>
+        <nombre>
+            Rafael Rojano
+        </nombre>
+        <materia>
+            Fundamentos de Tecnologías Web
+        </materia>
+        <genero>
+            Hombre
+        </genero>
+    </profesor>
+
+    <profesor>
+        <nombre>
+            Gerardelli Cruz
+        </nombre>
+        <materia>
+            Experiencia de usuario
+        </materia>
+        <genero>
+            Hombre
+        </genero>
+    </profesor>
+</profesores>

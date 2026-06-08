@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE carreras SYSTEM "carreras.dtd">
+
+<carreras>
+
+    <carrera>
+        <nombre>Ingeniería en Sistemas y Tecnologías de la Información</nombre>
+    </carrera>
+
+    <carrera>
+        <nombre>Ingeniería en Software</nombre>
+    </carrera>
+
+    <carrera>
+        <nombre>Geografía</nombre>
+    </carrera>
+
+    <carrera>
+        <nombre>Ingeniería en Ciberseguridad</nombre>
+    </carrera>
+
+    <carrera>
+        <nombre>Ingeniería en Ciencia de Datos</nombre>
+    </carrera>
+
+    <carrera>
+        <nombre>Economía</nombre>
+    </carrera>
+</carreras>

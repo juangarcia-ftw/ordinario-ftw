@@ -1,0 +1,7 @@
+<!ELEMENT eventos (evento+)>
+
+<!ELEMENT evento (nombre, fecha)>
+
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT fecha (#PCDATA)>

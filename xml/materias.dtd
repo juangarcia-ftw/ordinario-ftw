@@ -1,0 +1,5 @@
+<!ELEMENT materias (materia+)>
+
+<!ELEMENT materia (nombre)>
+
+<!ELEMENT nombre (#PCDATA)>
